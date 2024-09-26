@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license="${mod_license}"
+
+[[mods]]
+modId = "obscure_api_fix"
+displayTest="IGNORE_ALL_VERSION"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_author}"
+description = '''
+${mod_description}
+'''
+itemIcon = "minecraft:book"
+
+[[dependencies.obscure_api_fix]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.obscure_api_fix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2]"
+ordering = "NONE"
+side = "BOTH"

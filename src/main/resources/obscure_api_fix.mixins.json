@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.cadentem.obscure_api_fix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "de.cadentem.obscure_api_fix.mixin.ApplyMixinPlugin",
+  "refmap": "obscure_api_fix.refmap.json",
+  "mixins": [
+    "ApoliLivingEntityMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

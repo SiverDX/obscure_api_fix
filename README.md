@@ -1,0 +1,1 @@
+Compatibility fix between [Origins](https://www.curseforge.com/minecraft/mc-mods/origins-forge) and [Obscure API](https://www.curseforge.com/minecraft/mc-mods/obscure-api) (version 9)
